@@ -6,7 +6,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS }    from '@angular/common/http';  
 import { EmployeeService } from './employee.service';
 import { EmployeeComponent } from './employee/employee.component';
-//import { SecretComponent } from './secret/secret.component';
 import { TokenInterceptor } from './helpers/token.interceptor';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -20,7 +19,6 @@ import { AppComponent } from './app.component';
   declarations: [
     AppComponent,
     EmployeeComponent,
-    //SecretComponent,
     LoginPageComponent,
   ],
   imports: [
